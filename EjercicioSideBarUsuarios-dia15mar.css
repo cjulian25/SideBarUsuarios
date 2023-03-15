@@ -1,0 +1,80 @@
+/*CAMBIO DE FUENTE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+/*RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+/*CONFIGURACION BODY Y HTML*/
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+
+/* MAIN */
+
+main {
+    display: block;
+    margin: 1% auto;
+    padding: 2% 2%;
+    width: 34%;
+    height: 95%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.linea {
+    width: 98%;
+    margin: auto;
+    border: solid 1px rgb(146, 141, 141);
+}
+
+
+/* DIV(class="info")*/
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    width: 90%;
+    height: 20%;
+    margin: 4% auto;
+    overflow: hidden;
+}
+
+img {
+    align-self: center;
+    width: 30%;
+    height: 90%;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.texto {
+    flex-direction: column;
+    align-self: center;
+    width: 60%;
+    height: 50%;
+    overflow: hidden;
+}
+
+p {
+    justify-content: center;
+    width: 100%;
+}
+
+#direccion {
+    color: gray;
+}
